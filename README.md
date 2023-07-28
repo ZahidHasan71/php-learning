@@ -13,7 +13,7 @@
 
 Variables can store data of different types, and different data types can do different things.
 
-# PHP supports the following data types:
+### PHP supports the following data types:
 
 1. String
 2. Integer
