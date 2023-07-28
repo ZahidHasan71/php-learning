@@ -25,7 +25,10 @@ Variables can store data of different types, and different data types can do dif
 8. Resource
 9. callable
 
-## Details of Datatypes 
+## Details of Datatype
+
+### PHP String
+A string is a sequence of characters, like "Hello world!".
 
 ## Refrences 
     1. php.net
