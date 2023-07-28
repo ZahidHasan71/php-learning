@@ -36,5 +36,5 @@ Variables can store data of different types, and different data types can do dif
 
 
 
-## Developed & Designed: 
+##
 Tutorial By [Zahid Hasan](https://github.com/ZahidHasan71)
