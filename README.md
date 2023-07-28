@@ -11,7 +11,7 @@
 
 ## PHP Data Types
 
-Variables can store data of different types, and different data types can do different things.
+Variables can store data of different types, and different data types can do different things. PHP is a dynamically typed language. , which means that by default there is no need to specify the type of a variable, as this will be determined at runtime.
 
 ### PHP supports the following data types:
 
