@@ -32,9 +32,5 @@ Variables can store data of different types, and different data types can do dif
     2. w3school
     3. StackOverflow 
 
-## 
-
-
-
 ##
 Tutorial By [Zahid Hasan](https://github.com/ZahidHasan71)
