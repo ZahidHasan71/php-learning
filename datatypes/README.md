@@ -25,7 +25,7 @@ Variables can store data of different types, and different data types can do dif
 8. Resource
 9. callable
 
-
+## Details of Datatypes 
 
 ## Refrences 
     1. php.net
