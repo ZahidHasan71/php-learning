@@ -2,7 +2,7 @@
     <br/>
     <br/>
     <a href="#" target="_blank">
-        <img src="logo.png">
+        <img src="../logo.png">
     </a>
     <br/> 
     <br/> 
