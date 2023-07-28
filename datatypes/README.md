@@ -28,7 +28,9 @@ Variables can store data of different types, and different data types can do dif
 ## Details of Datatype
 
 ### PHP String
-A string is a sequence of characters, like "Hello world!".
+A string is a sequence of characters, like "Hello world!". string can be any text inside quotes. You can use single or double quotes.
+
+    Exemple: "Hello World!" / 'Hello World!'
 
 ## Refrences 
     1. php.net
