@@ -61,6 +61,14 @@ A floating-point number is a number with a decimal point. Unlike integer, it can
             echo "Addition of floating numbers: " .$sum;  
             ?> 
 
+### 3. PHP Boolean
+A Boolean represents two possible states: TRUE or FALSE. Booleans are often used in conditional testing. It holds only two values: TRUE (1) or FALSE (0).it is the simplest data type works like switch. 
+
+    Example:
+            <?php   
+                $x = true;
+                $y = false; 
+            ?>
 ## Refrences 
     1. php.net
     2. w3school
