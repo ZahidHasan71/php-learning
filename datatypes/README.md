@@ -42,7 +42,13 @@ Integer means numeric data with a negative or positive sign. An integer data typ
 3. An integer can be either positive or negative
 4. Integers can be specified in: decimal (base 10), hexadecimal (base 16), octal (base 8), or binary (base 2) notation.
 
-In the following example $x is an integer. The PHP #### var_dump() function returns the data type and value: ####
+In the following example $x is an integer. The PHP var_dump() function returns the data type and value: 
+
+    Example:
+            <?php
+            $x = 5985;
+            var_dump($x); //output is int(5985)
+            ?>
 
 ## Refrences 
     1. php.net
