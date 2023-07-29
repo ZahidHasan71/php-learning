@@ -13,3 +13,14 @@ var_dump($x);
     $y = -2147483649;
     var_dump($y);    //increase one number then it goes on float same as posative number.
  ?>
+<h3>Hexadecimal value print system</h3>
+<p>// syntex is -  hexdec(hex_string);</p>
+<?php
+    echo hexdec("1e") . "<br>";
+    echo hexdec("c2") . "<br>";
+?>
+
+<?php
+    echo dechex(12) . "<br>";
+    echo dechex(47);
+?>

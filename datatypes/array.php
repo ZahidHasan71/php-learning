@@ -1,8 +1,48 @@
 <?php   
-    $bikes = array ("Honda","Yamaha","Royal Enfield");  
-    var_dump($bikes);   //the var_dump() function returns the datatype and values  
-    echo "</br>";  
-    echo "Array Element1: $bikes[0] </br>";  
-    echo "Array Element2: $bikes[1] </br>";  
-    echo "Array Element3: $bikes[2] </br>";  
+
+$person = array(
+    array(
+        'person_name' => 'zahid',
+        'person_age'  => 25,
+        'person_height' => 5.5,
+        'family_members' => array(
+            array(
+                'name' => 'Kutub Uddin',
+                'relation' => 'father',
+                'age' => 50
+            ),
+            array(
+                'name' => 'Yesmin',
+                'relation' => 'mother',
+                'age' => 50
+            ),        
+            array(
+                'name' => 'Nahid',
+                'relation' => 'brother',
+                'age' => 15
+            ),        
+        )
+    ),
+    array(
+        'person_name' => 'fahad',
+        'person_age'  => 25,
+        'person_height' => 5.5,
+        'family_members' => array(
+            array(
+                'name' => 'Hasan Mia',
+                'relation' => 'father',
+                'age' => 50
+            ),
+            array(
+                'name' => 'Amina',
+                'relation' => 'mother',
+                'age' => 50
+            )      
+        )
+    )    
+);
+
+echo '<pre>';
+var_dump($person[1]['family_members'][1]['name']);
+
 ?>  
