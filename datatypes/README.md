@@ -50,6 +50,17 @@ In the following example $x is an integer. The PHP var_dump() function returns t
             var_dump($x); //output is int(5985)
             ?>
 
+### 3. PHP Float
+A floating-point number is a number with a decimal point. Unlike integer, it can hold numbers with a fractional or decimal point, including a negative or positive sign.
+
+    Example:
+            <?php   
+            $n1 = 19.34;  
+            $n2 = 54.472;  
+            $sum = $n1 + $n2;  
+            echo "Addition of floating numbers: " .$sum;  
+            ?> 
+
 ## Refrences 
     1. php.net
     2. w3school

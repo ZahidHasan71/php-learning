@@ -8,8 +8,8 @@ var_dump($x);
 
 //An integer data type is a non-decimal number between -2,147,483,648 and 2,147,483,647.
  <?php
-    $y = -2,147,483,648;
+    $y = -2147483648;
     var_dump($y);
-    $y = -2,147,483,649;
+    $y = -2147483649;
     var_dump($y);    //increase one number then it goes on float same as posative number.
  ?>
