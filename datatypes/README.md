@@ -92,8 +92,8 @@ Tip: If a variable is created without a value, it is automatically assigned a va
 Variables can also be emptied by setting the value to NULL
     Example:
             <?php
-                $bikes = array("Honda","Yamaha","Royal Enfield");
-                var_dump($cars);
+              $bikes = array("Honda","Yamaha","Royal Enfield");
+              var_dump($cars);
             ?>
 
 ### 8. PHP Resource
