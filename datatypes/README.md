@@ -61,14 +61,44 @@ A floating-point number is a number with a decimal point. Unlike integer, it can
             echo "Addition of floating numbers: " .$sum;  
             ?> 
 
-### 3. PHP Boolean
-A Boolean represents two possible states: TRUE or FALSE. Booleans are often used in conditional testing. It holds only two values: TRUE (1) or FALSE (0).it is the simplest data type works like switch. 
+### 4. PHP Boolean
+A Boolean represents two possible states: TRUE or FALSE. Booleans are often used in conditional testing. It holds only two values: TRUE (1) or FALSE (0). It is the simplest data type works like switch. 
 
     Example:
             <?php   
                 $x = true;
                 $y = false; 
             ?>
+
+### 5. PHP Array
+An array stores multiple values of same data type in a single variable.
+
+     Example:
+            <?php
+                $bikes = array("Honda","Yamaha","Royal Enfield");
+                var_dump($cars);
+            ?>
+
+### 6. PHP Object
+Classes and objects are the two main aspects of object-oriented programming.
+
+
+### 6. PHP NULL Value
+Null is a special data type that has only one value: NULL. There is a convention of writing it in capital letters as it is case sensitive.
+
+A variable of data type NULL is a variable that has no value assigned to it.
+
+Tip: If a variable is created without a value, it is automatically assigned a value of NULL.
+
+    Example:
+            <?php
+                $bikes = array("Honda","Yamaha","Royal Enfield");
+                var_dump($cars);
+            ?>
+
+
+
+Variables can also be emptied by setting the value to NULL
 ## Refrences 
     1. php.net
     2. w3school
