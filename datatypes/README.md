@@ -85,16 +85,14 @@ Classes and objects are the two main aspects of object-oriented programming.
 
 ### 7. PHP NULL Value
 Null is a special data type that has only one value: NULL. There is a convention of writing it in capital letters as it is case sensitive.
-
 A variable of data type NULL is a variable that has no value assigned to it.
-
 Tip: If a variable is created without a value, it is automatically assigned a value of NULL.
 Variables can also be emptied by setting the value to NULL
     Example:
-            <?php
+        <?php
               $bikes = array("Honda","Yamaha","Royal Enfield");
               var_dump($cars);
-            ?>
+        ?>
 
 ### 8. PHP Resource
 The special resource type is not an actual data type. It is the storing of a reference to functions and resources external to PHP.
