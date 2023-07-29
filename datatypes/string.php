@@ -4,8 +4,9 @@
     $var1 = "Hello World!";
     $var2 = 'Hello World!';
 
-    echo $var1;
-    echo $var2;
+    echo "$var1";
+    echo "<br>";
+    echo "$var2";
 
 ?>
 
