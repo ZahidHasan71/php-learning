@@ -27,10 +27,22 @@ Variables can store data of different types, and different data types can do dif
 
 ## Details of Datatype
 
-### PHP String
+### 1. PHP String
 A string is a sequence of characters, like "Hello world!". string can be any text inside quotes. You can use single or double quotes.
 
     Exemple: "Hello World!" / 'Hello World!'
+
+### 2. PHP Integer
+Integer means numeric data with a negative or positive sign. An integer data type is a non-decimal number between -2,147,483,648 and 2,147,483,647. If any number or single digit is increased or decreased then it will be converted  integer number to a floating number.
+
+##### Rules for integers:
+
+1. An integer must have at least one digit
+2. An integer must not have a decimal point
+3. An integer can be either positive or negative
+4. Integers can be specified in: decimal (base 10), hexadecimal (base 16), octal (base 8), or binary (base 2) notation.
+
+In the following example $x is an integer. The PHP #### var_dump() function returns the data type and value: ####
 
 ## Refrences 
     1. php.net
